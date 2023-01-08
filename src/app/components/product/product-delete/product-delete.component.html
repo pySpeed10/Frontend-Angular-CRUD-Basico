@@ -1,0 +1,31 @@
+<div class = "novo">
+  <mat-card class = "produto">
+
+    <mat-card-title class = 'title'> Excluir Produto </mat-card-title>
+
+    <form id = 'form'>
+
+      <mat-form-field id = "nome">
+        <input matInput placeholder="Nome"
+        [value] = "produto.nome" name = "nome" disabled>
+      </mat-form-field>
+
+      <mat-form-field id= "preco">
+        <input matInput placeholder="Preço R$"
+        [value] = "produto.price" name = "price" disabled>
+      </mat-form-field>
+
+    </form>
+
+  </mat-card>
+
+  <div class = 'button'>
+    <button id = 'create' mat-raised-button (click)="excluirProduto()" color="primary">
+      Excluir
+    </button>
+
+    <button id = 'cancel' mat-raised-button (click)="cancel()" color="warn">
+      Cancelar
+    </button>
+  </div>
+  </div>

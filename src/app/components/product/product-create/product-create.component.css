@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.novo{
+  height: 300px;
+  border: 2px solid #424242;
+}
+
+#nome{
+
+}
+
+.button{
+
+}
+
+#create {
+  width: 80px;
+  height: 30px;
+  margin-right: 50px;
+}
+
+#cancel {
+  width: 80px;
+  height: 30px;
+}
+
+.produto {
+  display: inline;
+}
+
+.produto .title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+

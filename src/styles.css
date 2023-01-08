@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.gold {
+    color: #FFD700;
+}
+
+.v-middleIconeFooter {
+    vertical-align: -20%;
+}
+
+.msg-sucesso {
+  --mat-mdc-snack-bar-button-color: white;
+  --mdc-snackbar-container-color: green;
+  --mdc-snackbar-supporting-text-color: white;
+}
+
+.msg-erro {
+  --mat-mdc-snack-bar-button-color: white;
+  --mdc-snackbar-container-color: red;
+  --mdc-snackbar-supporting-text-color: white;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.star1 {
+    font-size: 100%;
+}
+
+.rostoFeliz {
+  font-size: 100%;
+}
+
